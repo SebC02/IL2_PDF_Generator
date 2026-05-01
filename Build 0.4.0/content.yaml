@@ -1,0 +1,325 @@
+metadata:
+  header: "ACADEMIA DE COMBATE 250H  —  N.º 1  —  TAXI, DESPEGUE Y ATERRIZAJE: CAZAS"
+  footer: "DOCUMENTO DE USO INTERNO — Unidad Aerea - 250 Hispana"
+  series: "ACADEMIA DE COMBATE 250H"
+  subtitle: "MANUAL DE INSTRUCCIÓN N.º 1"
+  subject: "Taxi, Despegue y Aterrizaje: Cazas"
+  closing: "Academia de Combate 250H  ·  Manual N.º 1  ·  IL-2 Great Battles"
+  end: "— FIN DEL DOCUMENTO —"
+  epilogue: "Este documento es el primero de la serie Academia de Combate 250H.<br/>"
+
+sections:
+  - id: portada
+    title: "Portada"
+    blocks:
+      - type: image
+        key: "portada_new"
+        width: 17.0
+        max_height: 25.0
+        caption: ""
+
+  - id: intro
+    title: "I. PROPÓSITO DEL DOCUMENTO"
+    blocks:
+      - type: paragraph
+        content: >
+          El presente manual constituye el primer documento de instrucción formal de la 
+          Academia de Combate 250H, destinado a pilotos en formación que operan aeronaves 
+          de caza en el entorno del simulador <b>IL-2 Great Battles</b>. Su contenido cubre 
+          los procedimientos fundamentales de rodaje (taxi), despegue y aterrizaje aplicables 
+          a los aviones caza.
+      - type: paragraph
+        content: >
+          Este documento ha sido redactado sobre la base de <b>experiencia práctica acumulada</b>, 
+          Toda instrucción contenida en estas páginas ha sido verificada sesiones de practica 
+          con diversos modelos de caza.
+      - type: paragraph
+        content: >
+          El avión de referencia principal es el <b>Spitfire Mk XIV</b>, seleccionado por su 
+          marcada sensibilidad al torque, al prop-wash y a su tendencia a los trompos. Lo 
+          aprendido en esta aeronave es transferible a cualquier caza del período.
+      - type: subsection
+        content: "AVIONES RECOMENDADOS PARA ENTRENAMIENTO:"
+      - type: bullet_list
+        items:
+          - "<b>Primario:</b> Spitfire (cualquier variante disponible, preferentemente Mk XIV)."
+          - "<b>Alternativo:</b> Bf-109 (sin bloquear rueda de cola), Fw-190 (ídem)."
+          - "<b>Otros válidos:</b> MiG-3, Yak-1B."
+
+  - id: glosary
+    title: "GLOSARIO"
+    blocks:
+      - type: bullet_list
+        items:
+          - "<b>Sección I (Rodaje):</b> Procedimientos de taxi y control en tierra (Pág. 3)."
+          - "<b>Sección II (Despegue):</b> Procedimientos de despegue (Pág. 5)."
+          - "<b>Sección III (Aterrizaje):</b> Procedimiento de aterrizaje rapido. (Pág. 8)."
+
+
+  - id: taxi
+    title: "SECCIÓN I — RODAJE (TAXI)"
+    blocks:
+      - type: subsection
+        content: "1.1  ELECCIÓN DE CABECERA"
+      - type: paragraph
+        content: >
+          Antes de iniciar el rodaje, el piloto determinará la cabecera a utilizar. 
+          La regla general es simple: seleccionar la cabecera más cercana a la posición 
+          actual de la aeronave.
+      - type: note
+        content: >
+          En la vida real, el despegue se realiza siempre contra el viento. En el simulador 
+          este factor es irrelevante para la instrucción básica, ya que en el simulador no 
+          sentimos con fuerza; nos permitimos esta licencia.
+      - type: subsection
+        content: "1.2  PROCEDIMIENTO DE RODAJE"
+      - type: paragraph
+        content: >
+          El procedimiento de taxi exige control permanente y movimientos suaves. 
+          El principal accidente en tierra es el trompo descontrolado. Para evitarlo:
+      - type: bullet_list
+        items:
+          - "Aplicar potencia de manera <b>gradual y suave</b>. Nunca de golpe."
+          - "Mantener las RPM entre <b>1.200 y 1.300 RPM</b> durante todo el rodaje. Este rango garantiza autoridad de timón sin exceso de velocidad."
+          - "Conocer la ubicación del <b>TACÓMETRO</b> en el tablero del avión que nos encontramos es INDISPENSABLE para esto, NO CONFIAR EN EL TECNOCHAT. Si no se conoce la ubicacion del mismo, tomarse el tiempo de estudiar la cabina."
+          - "Utilizar <b>frenos y timón de dirección</b> para guiar la aeronave. Bloquear la rueda de cola cuando se ruede en línea recta; desbloquear para girar."
+          - "<b>No cortar la potencia completamente</b> durante el taxi. Esto provocara una reduccion del prop-wash en el timón reduciendo la capacidad de respuesta a un trompo, en aviones como el Spitfire, el efecto es tan fuerte que puede resultar en trompos sin control."
+      - type: image
+        key: "tacometro"
+        caption: "FIG. 1 — Tacómetro indicando el rango operativo de rodaje: 1.200–1.300 RPM."
+      - type: subsection
+        content: "1.3  RIESGOS COMUNES EN RODAJE"
+      - type: bullet_list
+        items:
+          - "Exceso de velocidad por potencia elevada sin uso de frenos."
+          - "Pérdida de autoridad de timón al cortar totalmente el motor."
+          - "Trompo al girar con rueda de cola bloqueada."
+          - "Mala aplicacion de frenos para dirigir el avion, resultando en trompo."
+      - type: note
+        content: >
+          El Spitfire Mk XIV es el avión que con mayor fidelidad reproduce los efectos del 
+          torque y el prop-wash durante el taxi. Su dominio en tierra garantiza la transferencia 
+          de habilidades a cualquier otra aeronave de caza del período.
+
+  - id: despegue
+    title: "SECCIÓN II — DESPEGUE"
+    blocks:
+      - type: subsection
+        content: "2.1  PREPARACIÓN PREVIA AL DESPEGUE"
+      - type: paragraph
+        content: >
+          Antes de solicitar permiso de despegue y aplicar potencia, el piloto verificará 
+          los siguientes puntos:
+      - type: bullet_list
+        items:
+          - "Verificar que las <b>RPM estén correctamente ajustadas</b> para el despegue, si el avión no posee control automático de hélice. En el caso contrario, no hay que preocuparse, esto aplica principalmente a aeronaves alemanas y al <b>Spitfire Mk XIV \"Teardrop\" como el utilizado en este ejemplo, aunque se lo colocó en control manual para la documentacion del manual</b>."
+          - "<b>Flaps:</b> No son necesarios para el despegue en condiciones normales. Los Spitfire y Yak no disponen de posiciones intermedias de flap; sus flaps son de despliegue total y están reservados para el aterrizaje."
+          - "Excepción de flaps en despegue: pista muy corta con obstáculo inmediato (bosque, edificación). En ese caso, <b>20° de flap</b> son ideales y aplicables a cualquier despegue con pista comprometida."
+      - type: image
+        key: "bombas_flaps"
+        caption: "FIG. 2 — Caza con carga de bombas: única condición que justifica el uso de flaps en despegue."
+      - type: subsection
+        content: "2.2  PROCEDIMIENTO DE DESPEGUE"
+      - type: paragraph
+        content: >
+          Una vez alineado en cabecera y con todos los parámetros verificados, se procederá 
+          del siguiente modo:
+      - type: bullet_list
+        items:
+          - "<b>Paso 1 — Potencia:</b> Utilizar como maximo el <b>MODO COMBATE</b>. No utilizar WEP (Emergencia) para el despegue. La única justificación para WEP sería una carga máxima de bombas en pista corta."
+          - "<b>Paso 2 — Aplicación de potencia:</b> Avanzar el acelerador de manera <b>progresiva y firme</b>. Ni lenta ni de golpe. Una aplicación repentina al máximo puede sobrerevolucionar el motor si las RPM están al tope."
+          - "<b>Paso 3 — Control de torque:</b> Simultáneamente, contrarrestar con timón de dirección la tendencia natural del avión a desviarse. La dirección varía según el tipo de aeronave."
+          - "<b>Paso 4 — Rueda de cola:</b> A medida que se gana velocidad, la rueda de cola se levará del suelo <b>sin necesidad de empujar la palanca</b>. Este momento indica que el avión está próximo a la velocidad de despegue."
+          - "<b>Paso 5 — Rotación:</b> De forma <b>suave</b>, tirar de la palanca para entrar en vuelo. Sin movimientos abruptos."
+      - type: image
+        key: "modo_combate"
+        caption: "FIG. 3 — Modo Combate seleccionado para el despegue. El modo Emergencia (WEP) no se emplea."
+      - type: image
+        key: "rueda_cola"
+        caption: "FIG. 4 — La rueda de cola se levanta naturalmente al alcanzar velocidad suficiente, sin intervención del piloto."
+      - type: image
+        key: "despegue_suave"
+        caption: "FIG. 5 — El despegue debe ser suave en los comandos. La rotación brusca es uno de los errores más frecuentes."
+      - type: subsection
+        content: "2.3  ERRORES COMUNES EN DESPEGUE"
+      - type: paragraph
+        content: "Los errores en el despegue se agrupan en tres perfiles de piloto:"
+      - type: subsection
+        content: "<b>A. Inseguridad con el avion. </b>"
+      - type: note
+        content: >
+          Es frecuente observar pilotos novatos que suben la potencia muy despacio y se 
+          desconcentran con el torque. Al enfocarse en el torque, olvidan continuar aumentando 
+          potencia para ganar velocidad y autoridad de timón. El resultado es la pérdida de 
+          control antes de despegar.
+      - type: bullet_list
+        items:
+          - "Sube la palanca de potencia demasiado lento."
+          - "Se distraen con el torque y olvidan aumentar la potencia."
+          - "No alcanzan velocidad suficiente para tener autoridad de timón."
+          - "Pierden el control antes de levantar vuelo."
+      - type: subsection
+        content: "<b>B. Impulsividad (Potencia Excesiva / Brusca)</b>"
+      - type: bullet_list
+        items:
+          - "Aplica potencia máxima de golpe."
+          - "Con las RPM ajustadas al máximo, un avance súbito puede <b>sobrerevolucionar el motor</b> y dañarlo irreparablemente. Y aunque esto no esta reflejado, en la realidad esto podria terminar en que el avion se da vuelta."
+          - "El mayor riesgo en este error, es romper el motor, o dañarlo gravemente."
+      - type: subsection
+        content: "<b>C. Uso Incorrecto del WEP (Emergencia)</b>"
+      - type: warning
+        content: >
+          NO utilizar WEP (Modo Emergencia) para el despegue en condiciones normales. 
+          Esta potencia no es necesaria y puede comprometer la vida útil del motor. 
+          Su uso sólo se justifica con carga máxima de bombas en pista corta.
+
+  - id: aterrizaje
+    title: "SECCIÓN III — ATERRIZAJE"
+    blocks:
+      - type: subsection
+        content: "3.1  CONSIDERACIÓN GENERAL"
+      - type: paragraph
+        content: >
+          Existen múltiples procedimientos de aterrizaje válidos. Este manual describe 
+          <b>uno específico</b>, diseñado para minimizar el tiempo de exposición en el circuito 
+          de aproximación, dado que toda aeronave en vuelo a baja velocidad y baja altura 
+          representa un blanco potencial para el enemigo.
+      - type: note
+        content: >
+          En lugar de seguir un patrón de tránsito estándar, que consume tiempo y expone 
+          innecesariamente la aeronave, se describe aquí una maniobra de desaceleración rápida, 
+          y recordad, utilizamos esta maniobra para evitar riesgos de atacques. 
+          La probabilidad de ataque nunca es cero.
+      - type: warning
+        content: >
+          Si la aeronave está dañada: ATERRIZA COMO PUEDAS. Sin importar la cabecera, sin 
+          importar la dirección. La prioridad es salvar la aeronave y al piloto.
+      - type: subsection
+        content: "3.2  MANIOBRA DE ATERRIZAJE — PROCEDIMIENTO PASO A PASO"
+      - type: paragraph
+        content: >
+          A continuación se detalla la secuencia completa, ordenada desde la fase inicial 
+          hasta el toque en pista:
+      - type: subsection
+        content: "<b>FASE 1 — Localización y aproximación directa</b>"
+      - type: bullet_list
+        items:
+          - "Divisar la pista y determinar la cabecera de aterrizaje."
+          - "Dirigirse hacia la pista de <b>forma directa</b>. No realizar patrón de aproximación estándar."
+      - type: image
+        key: "posicion_exterior"
+        caption: "FIG. 6 — Posición de la aeronave respecto a la pista al inicio de la maniobra (vista exterior)."
+      - type: image
+        key: "posicion_cabina"
+        caption: "FIG. 7 — Misma posición desde la visión del piloto en cabina."
+      - type: subsection
+        content: "<b>FASE 2 — Pasada sobre pista (descenso inicial)</b>"
+      - type: bullet_list
+        items:
+          - "Al llegar sobre la pista o muy próximo a la cabecera elegida, <b>cortar la potencia del motor</b>, manteniendo las RPM al máximo."
+          - "En aeronaves con control automático de hélice, iniciar el control manual de RPM en este momento."
+          - "Iniciar un <b>descenso pronunciado</b> hacia la pista. El objetivo no es aterrizar en esta pasada, sino realizar un paso de baja altura de cabecera a cabecera, con margen suficiente para maniobrar."
+          - "La altura mínima de esta pasada es baja, pero no excesivamente. Debe existir margen de maniobra."
+      - type: image
+        key: "corte_potencia"
+        caption: "FIG. 8 — Corte de potencia para iniciar el descenso abrupto sobre la pista."
+      - type: image
+        key: "descenso_cabina"
+        caption: "FIG. 9 — El descenso es pronunciado. Vista desde cabina."
+      - type: image
+        key: "descenso_externo"
+        caption: "FIG. 10 — Vista exterior del descenso abrupto hacia la cabecera."
+      - type: image
+        key: "altura_minima"
+        caption: "FIG. 11 — La altura mínima de la pasada es baja, pero con margen operativo."
+      - type: subsection
+        content: "<b>FASE 3 — Giro de 180° en la segunda cabecera</b>"
+      - type: bullet_list
+        items:
+          - "Al llegar al extremo opuesto de la pista, con el motor cortado, ejecutar un <b>giro de 180°</b> lo más abrupto posible."
+          - "Este giro tiene por objeto <b>quemar la energía restante</b> y dejar la aeronave en condiciones de velocidad apropiadas para el aterrizaje."
+      - type: image
+        key: "giro_180"
+        caption: "FIG. 12 — El giro en la segunda cabecera debe ser suficientemente abrupto para perder energía."
+      - type: subsection
+        content: "<b>FASE 4 — Configuración de flaps y gestión de potencia</b>"
+      - type: bullet_list
+        items:
+          - "Una vez completado el giro, comenzar a <b>bajar los flaps a la posición de aterrizaje</b> (despliegue máximo en la mayoría de los aviones)."
+          - "Para evitar entrar en pérdida (stall) con flaps desplegados, <b>aumentar suavemente la potencia</b> para mantener una velocidad muy baja pero controlada."
+      - type: image
+        key: "bajar_flaps"
+        caption: "FIG. 13 — Bajada de flaps de camino hacia la segunda cabecera, para configurar la aeronave para el aterrizaje."
+      - type: subsection
+        content: "<b>FASE 5 — Aproximación final</b>"
+      - type: bullet_list
+        items:
+          - "Sobrepasar la cabecera de destino y ejecutar el <b>giro final</b> para encarar la pista en aproximación."
+          - "Durante este giro, regular con cuidado la potencia. Un aumento brusco a baja velocidad puede hacer que el torque voltee la aeronave."
+          - "Una vez encarados con la pista, bajar el <b>tren de aterrizaje</b>."
+          - "Descender gradualmente hacia pista, <b>reduciendo potencia de forma progresiva</b> mientras se aproxima a la cabecera."
+      - type: image
+        key: "encarar_pista"
+        caption: "FIG. 14 — Encarando la pista en aproximación final. Tren de aterrizaje bajando."
+      - type: image
+        key: "aproximacion"
+        caption: "FIG. 15 — Aproximación final a baja velocidad, pista encuadrada."
+      - type: image
+        key: "potencia_stall"
+        caption: "FIG. 16 — Ajuste suave de potencia en la aproximación final para sostener la velocidad y evitar la pérdida."
+      - type: subsection
+        content: "<b>FASE 6 — Toque y rodaje de parada</b>"
+      - type: bullet_list
+        items:
+          - "Al llegar a la cabecera y estar muy próximo al suelo, <b>cortar la potencia</b> y realizar un <b>aterrizaje de tres puntos</b>: las dos ruedas principales y la rueda de cola tocan simultáneamente."
+          - "Es normal no ver la pista en este momento: el morro levantado bloquea la visión frontal. Sin potencia, el avión descenderá por su propio peso."
+          - "<b>Excepción Spitfire:</b> No cortar totalmente la potencia al tocar. Mantener un mínimo (aprox. 1.200 RPM) para evitar el trompo al contacto."
+          - "Una vez en tierra, aplicar <b>frenos de forma progresiva</b>. No clavar de punta. Aeronaves propensas al vuelco: La-5, La-7, P-51, P-47."
+      - type: image
+        key: "toque_3puntos"
+        caption: "FIG. 17 — Al llegar a la cabecera, se corta la potencia y se levanta el morro para el aterrizaje de tres puntos."
+      - type: subsection
+        content: "3.3  FALLOS FRECUENTES EN ATERRIZAJE"
+      - type: bullet_list
+        items:
+          - "<b>Aterrizaje en cabecera incorrecta:</b> Salvo emergencia, siempre aterrizar en la cabecera activa."
+          - "<b>Descenso insuficientemente pronunciado:</b> Si la pasada inicial no es suficientemente baja, el avión llega con demasiada energía al giro final."
+          - "<b>Giro en segunda cabecera demasiado suave:</b> El avión no pierde suficiente energía y llega rápido a la aproximación final."
+          - "<b>Aumento brusco de potencia en el giro final:</b> El torque a baja velocidad puede hacer virar violentamente la aeronave hacia el suelo."
+          - "<b>Pánico ante el rebote:</b> Si el avión rebota al tocar, NO actuar sobre los mandos. No empujar ni tirar la palanca. Dejar que el avión termine el rebote por sí solo."
+          - "<b>Frenos excesivos:</b> En los aviones señalados (La-5, La-7, P-51, P-47), los frenos agresivos pueden volcar la aeronave sobre el morro."
+      - type: warning
+        content: >
+          GO-AROUND OBLIGATORIO: Si al finalizar la maniobra el piloto advierte que no 
+          dispondrá de pista suficiente para detenerse, aplicar INMEDIATAMENTE potencia 
+          de combate y ejecutar una nueva aproximación completa."
+
+  - id: notas_finales
+    title: "APUNTES FINALES A CONSIDERAR."
+    blocks:
+      - type: paragraph
+        content: >
+          El dominio de los procedimientos descritos en este manual, de aplicarse bien 
+          lograra que cualquier persona iniciando en el simulador pueda sobrellevar los 
+          despegues y aterrizajes.
+      - type: paragraph
+        content: >
+          Consideracion final: Si doman el Spitfire, reaplicar los conceptos en otros 
+          cazas es sencillo.
+      - type: subsection
+        content: "RESUMEN DE PRINCIPIOS FUNDAMENTALES:"
+      - type: bullet_list
+        items:
+          - "Suavidad en los mandos. Siempre."
+          - "La potencia es progresiva, nunca de golpe."
+          - "El torque se contrarresta, no se ignora."
+          - "El tiempo en el aire durante el aterrizaje es riesgo. Minimizarlo."
+          - "Si duda en el aterrizaje: Go-Around. Siempre hay otra oportunidad."
+          - "Si el avión está dañado: aterrizar como sea, donde sea."
+          - "Un rebote no es un accidente. Pánico sobre el rebote sí lo es."
+
+  - id: epilogo
+    title: "FIN DEL DOCUMENTO"
+    blocks:
+      - type: paragraph
+        content: "Academia de Combate 250H  ·  Manual N.º 1  ·  IL-2 Great Battles"
