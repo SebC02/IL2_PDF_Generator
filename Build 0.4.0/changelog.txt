@@ -1,3 +1,6 @@
+v0.4.1 (2026-05-01)
+- Se añade la guia operacional del MiG-3
+
 v0.4.0 (2026-04-30)
 - Generación de ejecutable portable (generate_document.exe) mediante PyInstaller.
 - Implementación de feedback visual (GUI) mediante tkinter para errores y confirmación de éxito.

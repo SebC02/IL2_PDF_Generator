@@ -1,10 +1,10 @@
 metadata:
-  header: "ACADEMIA DE COMBATE 250H  —  N.º 1  —  TAXI, DESPEGUE Y ATERRIZAJE: CAZAS"
+  header: "ACADEMIA DE COMBATE 250H  - MANUAL DE VUELO"
   footer: "DOCUMENTO DE USO INTERNO — Unidad Aerea - 250 Hispana"
-  series: "ACADEMIA DE COMBATE 250H"
-  subtitle: "MANUAL DE INSTRUCCIÓN N.º 1"
-  subject: "Taxi, Despegue y Aterrizaje: Cazas"
-  closing: "Academia de Combate 250H  ·  Manual N.º 1  ·  IL-2 Great Battles"
+  series: ""
+  subtitle: ""
+  subject: ""
+  closing: ""
   end: "— FIN DEL DOCUMENTO —"
   epilogue: "Este documento es el primero de la serie Academia de Combate 250H.<br/>"
 
@@ -23,38 +23,42 @@ sections:
     blocks:
       - type: paragraph
         content: >
-          El presente manual constituye el primer documento de instrucción formal de la 
-          Academia de Combate 250H, destinado a pilotos en formación que operan aeronaves 
-          de caza en el entorno del simulador <b>IL-2 Great Battles</b>. Su contenido cubre 
-          los procedimientos fundamentales de rodaje (taxi), despegue y aterrizaje aplicables 
-          a los aviones caza.
+         El propósito de este manual, es proporcionar una guia clara y practica sobre diversos fundamentos del simulador.
+         
       - type: paragraph
         content: >
-          Este documento ha sido redactado sobre la base de <b>experiencia práctica acumulada</b>, 
-          Toda instrucción contenida en estas páginas ha sido verificada sesiones de practica 
-          con diversos modelos de caza.
+         Esto incluye, conocimientos tecnicos de diversas aeronaves, procedimientos, y consejos para agilizar el aprendizaje en el simulador.
       - type: paragraph
         content: >
-          El avión de referencia principal es el <b>Spitfire Mk XIV</b>, seleccionado por su 
-          marcada sensibilidad al torque, al prop-wash y a su tendencia a los trompos. Lo 
-          aprendido en esta aeronave es transferible a cualquier caza del período.
-      - type: subsection
-        content: "AVIONES RECOMENDADOS PARA ENTRENAMIENTO:"
-      - type: bullet_list
-        items:
-          - "<b>Primario:</b> Spitfire (cualquier variante disponible, preferentemente Mk XIV)."
-          - "<b>Alternativo:</b> Bf-109 (sin bloquear rueda de cola), Fw-190 (ídem)."
-          - "<b>Otros válidos:</b> MiG-3, Yak-1B."
+         El manual posee un glosario para saber donde se encontará cada tema, a fecha de esta redacción el manual se encuentra en construccion, y se irán agregando temas a medida que se vayan desarrollando.
+      - type: note
+        content: >
+          Dentro de estos recuadros de "NOTA", se incluyen apuntes y consejos basados en la experiencia acumulada, que no necesariamente son procedimientos formales, pero que pueden resultar útiles para los pilotos en su proceso de aprendizaje.
+      - type: warning
+        content: >
+          En estos recuadros de "ADVERTENCIA", se destacan, advertencias, y recomendaciones críticas.
+      - type: paragraph
+        content: >
+          En un futuro, la herramienta que generó el manual podra crear diversos documentos, sea para uso de manual, briefing, o cualquier otro formato que se considere necesario. Por ahora, el formato es el de un manual de vuelo, pero se planea expandir su uso a otros tipos de documentos relacionados con la simulación de combate aéreo.
 
   - id: glosary
     title: "GLOSARIO"
     blocks:
       - type: bullet_list
         items:
-          - "<b>Sección I (Rodaje):</b> Procedimientos de taxi y control en tierra (Pág. 3)."
-          - "<b>Sección II (Despegue):</b> Procedimientos de despegue (Pág. 5)."
-          - "<b>Sección III (Aterrizaje):</b> Procedimiento de aterrizaje rapido. (Pág. 8)."
+          - "<b>Sección I (Rodaje):</b> Procedimientos de taxi y control en tierra (Pág. 4)."
+          - "<b>Sección II (Despegue):</b> Procedimientos de despegue (Pág. 6)."
+          - "<b>Sección III (Aterrizaje):</b> Procedimiento de aterrizaje rapido. (Pág. 9)."
+          - "<b>Sección IV MiG-3:</b> Guia operacional del MiG-3 (Pág. 16)."
 
+  - id: "taxi_takeoff_landing_portrait"
+    title: "SECCIONES I, II y III — RODAJE, DESPEGUE y ATERRIZAJE"
+    blocks:
+      - type: image
+        key: "portada"
+        width: 17.0
+        max_height: 25.0
+        caption: ""
 
   - id: taxi
     title: "SECCIÓN I — RODAJE (TAXI)"
@@ -262,11 +266,11 @@ sections:
         key: "encarar_pista"
         caption: "FIG. 14 — Encarando la pista en aproximación final. Tren de aterrizaje bajando."
       - type: image
-        key: "aproximacion"
-        caption: "FIG. 15 — Aproximación final a baja velocidad, pista encuadrada."
-      - type: image
         key: "potencia_stall"
-        caption: "FIG. 16 — Ajuste suave de potencia en la aproximación final para sostener la velocidad y evitar la pérdida."
+        caption: "FIG. 15 — Ajuste suave de potencia en la aproximación final para sostener la velocidad y evitar la pérdida."
+      - type: image
+        key: "aproximacion"
+        caption: "FIG. 16 — Aproximación final a baja velocidad, pista encuadrada."
       - type: subsection
         content: "<b>FASE 6 — Toque y rodaje de parada</b>"
       - type: bullet_list
@@ -318,8 +322,156 @@ sections:
           - "Si el avión está dañado: aterrizar como sea, donde sea."
           - "Un rebote no es un accidente. Pánico sobre el rebote sí lo es."
 
-  - id: epilogo
+  - id: mig_3_RU
+    title: "SECCIÓN IV — MiG-3"
+    blocks:
+      - type: image
+        key: "mig_3"
+        width: 17.0
+        max_height: 25.0
+
+  - id: mig_3_operations_guide
+    title: "SECCIÓN IV — MiG-3"
+    blocks:
+      - type: subsection
+        content: "4.1 — ESPECIFICACIONES TÉCNICAS BASICAS"
+      - type: bullet_list
+        items:
+          - "Motor AM-35A, potencia máxima de 1.350 HP a 2.100 RPM a nivel de mar. (10 MINUTOS DE WEP)."
+          - "*Velocidad máxima de 526 km/h a nivel de mar, a temperatura Otoñal*"
+          - "Velocidad máxima de 626 km/h a 7.400 m"
+          - "Techo de servicio: 11.180 m."
+          - "Armamento: x2 7.62mm ShKAS + x1 12.7mm UBS frontal sobre el capo del motor."
+      - type: image
+        key: "mig_3_mods"
+        caption: "FIG. 18 — Modificaciones disponibles para el MiG-3."
+      - type: warning
+        content: >
+            Las velocidades máximas asignadas con una "*" fueron probadas dentro del simulador en el mapa de Kuban en Otoño de 1943, los rendimientos pueden variar en otros mapas y condiciones climáticas.
+      - type: warning
+        content: >
+            Los radiadores no son muy eficientes durante el verano. Tener cuidado con la gestion de los mismos con temperaturas que superen los 20°C.
+      - type: subsection
+        content: "4.2 — MODIFICACIONES DISPONIBLES"
+      - type: bullet_list
+        items:
+          - "Modificación 1: Motor AM-38, potencia máxima de 1.500 HP a 2.150 RPM. (10 MINUTOS DE WEP)."
+          - "Modificación 2: x2 12,7mm UBS sobre el capó del motor"
+          - "Modificación 3: x2 20mm ShVAK sobre el capó del motor *Tracerless*)"
+          - "Modificación 4: x2 Gunpods 12,7 BK bajo las alas, compatible el armamento del capó del motor."
+          - "Modificación 5: x2 Bombas FAB-50 de 50 kg bajo las alas."
+          - "Modificación 6: x2 Bombas FAB-100 de 100 kg bajo las alas."
+          - "Modificación 7: Cohetes RS-82 bajo las alas."
+      - type: warning
+        content: >
+          La modificación 3 (x2 20mm ShVAK) no dispara proyectiles trazadores, lo que dificulta la puntería.
+      - type: warning
+        content: >
+          El motor AM-38 es mucho mas propenso a sobrecalentarse que el AM-35A, los radiadores nunca fueron ajustados para este motor, por lo que esta muy desaconsejado su uso por encima de los 15°c.
+          Se recomienda su uso en climas de invierno, especialmente bajo en condiciones bajo cero, donde el frio ambiental compensa la falta de eficiencia de los radiadores del MiG-3.
+      - type: warning
+        content: >
+          Los gunpods de 12,7mm UBS bajo las alas, aunque aumentan el poder de fuego, generan un aumento significativo en la resistencia aerodinámica, lo que reduce la velocidad máxima y la maniobrabilidad del avión.
+      - type : subsection
+        content: "4.3 — CONTEXTO OPERACIONAL"
+      - type: image
+        key: "mig_3_operation"
+        caption: "FIG. 19 - MiG-3 en Moscu, Diciembre de 1941."
+      - type: paragraph
+        content: >
+          El MiG-3 es el caza mas avanzado de la Fuerza Aérea Soviética durante el periodo de la Operacion Barbarroja.
+      - type: paragraph
+        content: >
+          Su entrada en servicio es en <b>Diciembte de 1940</b>, sus prestaciones son superiores a comparacion con otros cazas Rusos del periodo, como el <b>I-16, I-153, LaGG-3s4 o el Yak-1s23</b>.
+      - type: paragraph
+        content: >
+          Su principal deficiencia es la agilidad, a diferencia de los cazas previamente mencionados, el MiG-3 no presenta una agilidad sobresaliente. Su punto fuerte es la velocidad, lo que le sirve para dictaminar cuando un combate inicia y termina.
+      - type: paragraph
+        content: >
+          Tambien, a diferencia de los otros cazas sovieticos, el MiG-3 presenta un rendimiento en altura respetable, y comparable a sus rivales alemanes de la epoca.
+      - type: paragraph
+        content: >
+          Los rivales directos del MiG-3 son los siguientes descriptos:
+      - type: bullet_list
+        items:
+          - "<b>Bf-109E-4</b>"
+          - "<b>Bf-109E-7</b>"
+          - "<b>Bf-109E-4/N</b>"
+          - "<b>Bf-109F-2</b>"
+          - "<b>Bf-109F-4 (En menor medida)</b>"
+      - type: note
+        content: >
+          Exceptuando el <b>Bf-109F-4</b>, el MiG-3 es competitivo o superior a todos los rivales mencionados. El <b>Bf-109F-4</b> es superior al MiG-3 en casi todos los aspectos, pero su disponibilidad en el mapa de Moscu es limitada, por lo que no es un rival frecuente.
+      - type: warning
+        content: >
+          No se recomienda para nada entablar combates evolucioandos contra un <b>Bf-109</b>. No importa el modelo, siempre son mas agiles, en especial los <b>Bf-109 de la serie E</b>.
+          Esto tambien fue un error tipico de los pilotos del MiG-3 durante la guerra, utilizaban el MiG-3 como cazas como el I-16, consiguiendo resultados pobres.
+      - type: warning
+        content: >
+          El uso del motor AM-38 provee al MiG-3 de una performance superior al Bf-109F-4 en algunos ambitos como la baja cota, sin embargo, posee la mencionada deficiencia de sobrecalentarse con facilidad.
+          El incremento de potencia del AM-38 es tan notable, que de pasar de volar a 526 km/h a nivel de mar con el AM-35A, se pasa a 560 km/h con el AM-38, muy por encima del Bf-109F-4. Sin embargo, siempre considerar el riesgo de sobrecalentamiento, especialmente en climas cálidos.
+      - type: subsection
+        content: "4.4 — CARACTERISTICAS OPERACIONALES"
+      - type: paragraph
+        content: >
+          El MiG-3 al igual que la mayoria de los cazas sovieticos, no posee automatizaciones de ningun tipo para el motor, incluyendo el sistema de refrigeracion, por lo que el piloto debe gestionar manualmente los radiadores para evitar el sobrecalentamiento del motor.
+      - type: paragraph
+        content: >
+         El control que el piloto tenga sobre la apertura de radiadores por resultado una gran diferencia el rendimiento del avión. 
+      - type: paragraph
+        content: >
+          Los controles a tener en consideracion son los siguientes.
+      - type: bullet_list
+        items:
+          - "<b>Radiadores de aceite.</b>"
+          - "<b>Radiadores de agua.</b>"
+          - "<b>Mezcla de combustible. IMPORTANTE, la maxima mezcla habilita el WEP del MiG-3.</b>"
+          - "<b>Paso de la hélice.</b>"
+      - type: note
+        content: >
+          El patin de cola es controlado por los pedales de timón. Facilitando el control del avion en tierra.
+      - type: note
+        content: >
+          Los flaps del MiG-3 son de despliegue total, sin embargo, tienen un limitador ajustable, que permite deplegarlos parcialmente.
+      - type: subsection
+        content: "4.5 — COCKPIT DEL MIG-3"
+      - type: image
+        key: "mig_3_cockpit"
+        caption: "FIG. 20 — Vista general al panel de instrumentos del MiG-3."
+      - type: paragraph
+        content: >
+          El instrumental del MiG-3 es bastante sencillo y completo para la epoca.
+          Inclusive, posee algunas caractristicas que otros cazas de la epoca no, como el varioaltimetro, o el indicador de combustible en el panel frontal, o indicador interno de apertura de radiadores.
+      - type: image
+        key: "mig_3_engine_dials"
+        caption: "FIG. 21 — Los diales de las parametrias del motor se encuentran en la seccion derecha del motor."
+      - type: bullet_list
+        items:
+          - "<b>RPM:</b> Tacometro indicando las revoluciones por minuto del motor. Ubicado arriba de los diales de temperatura. Lee desde las 600RPM a las 3000RPM"
+          - "<b>Manifold:</b> Indica la presión del colector de admisión, esencial para gestionar la potencia del motor. Le desde los 300mm Hg (Mercurio) a los 1.600mm Hg. Ubicado encima del tacometro"
+          - "<b>Temperatura del aceite:</b> Permite monitorear la temperatura del aceite, facil de ubicar por el indicador de color rojo/bordo que tiene."
+          - "<b>Temperatura del agua:</b> Indica la temperatura del sistema de refrigeración por agua, facil de ubicar por el indicador de color verde que tiene."
+          - "<b>Tanque de combustible:</b> Indica la cantidad de combustible restante en el tanque, a la derecha de la presion del manifold, tiene un color amarillo caracteristico."
+      - type: image
+        key: "mig_3_radiators_oil_detail"
+        caption: "FIG. 22 — El control de la apetura del radiador de aceite posee un indicador que tan abierto esta el mismo, lo que facilita la gestion de la temperatura del motor. Algo unico en los cazas Rusos de la epoca."
+      - type: image
+        key: "mig_3_radiators_coolant_detail"
+        caption: "FIG. 23 — El control de la apertura del radiador de agua. Es una manivela ubicada a la izquierda del piloto, con un indicador que muestra su apertura."
+      - type: image
+        key: "mig_3_radiators_coolant_detail_open"
+        caption: "FIG. 24 — Radiador de agua en posición abierta. <b>Revisar el indicador</b>."
+      - type: image
+        key: "mig_3_radiators_coolant_detail_close"
+        caption: "FIG. 25 — Radiador de agua en posición cerrada. <b>Revisar el indicador</b>."
+      - type: image
+        key: "mig_3_mixture_control"
+        caption: "FIG. 26 — Control de la mezcla de combustible. <b>Es la palanca negra, indica 3 posibles posiciones, pero es gradual.</b>." 
+      
+      
+
+  - id: epilogue
     title: "FIN DEL DOCUMENTO"
     blocks:
       - type: paragraph
-        content: "Academia de Combate 250H  ·  Manual N.º 1  ·  IL-2 Great Battles"
+        content: "Academia de Combate 250H - Manual de Vuelo v0.4.1"
