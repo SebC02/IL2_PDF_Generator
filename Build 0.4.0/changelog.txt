@@ -1,0 +1,27 @@
+v0.4.1 (2026-05-01)
+- Se añade la guia operacional del MiG-3
+
+v0.4.0 (2026-04-30)
+- Generación de ejecutable portable (generate_document.exe) mediante PyInstaller.
+- Implementación de feedback visual (GUI) mediante tkinter para errores y confirmación de éxito.
+- Resolución de rutas dinámica (sys.executable y _MEIPASS) para asegurar la portabilidad total.
+- Desacoplamiento final: metadatos de encabezado y pie de página migrados de hardcoding a content.yaml.
+- Script automatizado make_exe.py para construcción robusta.
+
+v0.3.0 (2026-04-28)
+- Desacoplamiento total de activos (imágenes): carga dinámica mediante assets.yaml.
+- Creación de asset_loader.py para resolución centralizada de rutas.
+- Eliminación de dependencias hardcodeadas en config.py.
+
+v0.2.1 (2026-04-28)
+- Restauración completa de secciones 'portada', 'intro' y 'epílogo' integradas dinámicamente en content.yaml.
+- Corrección de bug en el renderizado de imágenes: Ajuste de parámetros de redimensionamiento y tipos de datos para evitar errores de tipo en el YAMLBuilder.
+
+v0.2.0 (2026-04-28)
+- Implementación de sistema de configuración desacoplado mediante archivos YAML.
+- Añadida parametrización del contenido del manual fuera del código fuente.
+- Creación de YAMLBuilder para renderizado dinámico de secciones.
+- Eliminación de dependencia de constantes hardcodeadas en content.py.
+
+v0.1.0
+- Versión inicial.
